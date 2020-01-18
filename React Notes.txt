@@ -1,0 +1,7 @@
+Three tenants of react componetns
+
+Componet Nesting - A component can be shown inside of another
+Componetn Reusability - We want to make components that can be easily reused throughout the application
+component Configuration - We want to be able to configure a component when it is created
+
+semantic-ui.com = A great website for some basic styling.  A lot of basic things that most people use.
