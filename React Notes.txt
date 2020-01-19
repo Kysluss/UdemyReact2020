@@ -5,3 +5,7 @@ Componetn Reusability - We want to make components that can be easily reused thr
 component Configuration - We want to be able to configure a component when it is created
 
 semantic-ui.com = A great website for some basic styling.  A lot of basic things that most people use.
+
+Easiest to utilize semantic ui cdn to get a link to the CDN where everything is already set up
+
+Faker JS - library to help you generate data for your projects
