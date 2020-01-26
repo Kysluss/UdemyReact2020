@@ -56,3 +56,5 @@ Example: constructor(props) {
 	super(props);
 	// Other stuff here
 }
+
+Never have initalization code inside of the render method.  It should only create JSX.  The render method gets called a lot, and you don't want your initialization code to be called numerous times.
