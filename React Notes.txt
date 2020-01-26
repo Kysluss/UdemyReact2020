@@ -65,3 +65,13 @@ Component Lifecycle Methods
 	- componentDidMount called after the component is rendered to the screen
 	- componentDidUpdate called after the component updates itself (like after setState)
 	- componentWillUnmount called when for some reason, the component will no longer be showed on the screen.  Good for cleanup of the component
+
+componentDidMount is a good place to do data loading for an initial load
+componentDidUpdate is a good place to do more data loading when state/props change
+componentWillUnmount is a good place to do cleanup (especially for non-React stuff)
+
+These 3 lifecycle methods are rarely used
+
+shouldComponetnUpdate
+getDerivedStateFromProps
+getSnapshotBeforeUpdate
