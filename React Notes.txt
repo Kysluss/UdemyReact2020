@@ -25,3 +25,17 @@ Timeline of what happens in a user's browser
 	- We call geolocation service
 	- Immediately after (geolocation has not finished yet), JSX is returned by app component and is rendered as HTML
 	- We get a result from geolocation
+
+Desired timeline:
+Timeline of what happens in a user's browser
+	- JS file loaded by browser
+	- App component gets created
+	- We call geolocation service
+	- Immediately after (geolocation has not finished yet), JSX is returned by app component and is rendered as HTML
+	- We get a result from geolocation
+	- Tell componet to re-render itself with the geolocation information
+
+Rules of a class based component
+	- Must be a Javascript Class
+	- Must extend (subclass) React.Component
+	- Must define a 'render' method that returns some amount of JSX
