@@ -49,3 +49,10 @@ Rules of State
 	- State can only be updated using the function setState
 
 The last rule is very important.  You can only update state using setState.  This is the most common mistake that people make.  It's an object and you can update it directly, but then components won't re-render and other things won't update appropriately.
+
+When you have a class based component, there is a constructor method that you can override to do some initial setup.  If you override the constructor function, you NEED to call the super function which will call the parent's constructor function.
+
+Example: constructor(props) {
+	super(props);
+	// Other stuff here
+}
