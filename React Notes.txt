@@ -79,3 +79,5 @@ getSnapshotBeforeUpdate
 When creating functional components, you can specify default props that will be used if none are sent into it.
 
 Example: Spinner.defaultProps { message: 'Loading...' };
+
+Attempt to move conditional rendering into a helper function.  If you need to modify the default layout for that component later, it will make it much easier.
