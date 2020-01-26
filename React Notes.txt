@@ -14,3 +14,7 @@ Benefits of class based components
 	- Easier organization of code
 	- Can use the "state" system in React (data, events, user input, etc)
 	- Understands lifecycle events (app startup, component is rendered, etc)
+
+You can "fake" your GPS location using Chrome Dev Tools.
+	- While inside of dev tools, hit escape.  From the options menu (the ...), chose sensors
+	- Within sensors, you can use one of the geolocation override options
