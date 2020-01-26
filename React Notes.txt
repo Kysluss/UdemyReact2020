@@ -9,3 +9,8 @@ semantic-ui.com = A great website for some basic styling.  A lot of basic things
 Easiest to utilize semantic ui cdn to get a link to the CDN where everything is already set up
 
 Faker JS - library to help you generate data for your projects
+
+Benefits of class based components
+	- Easier organization of code
+	- Can use the "state" system in React (data, events, user input, etc)
+	- Understands lifecycle events (app startup, component is rendered, etc)
