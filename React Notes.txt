@@ -18,3 +18,10 @@ Benefits of class based components
 You can "fake" your GPS location using Chrome Dev Tools.
 	- While inside of dev tools, hit escape.  From the options menu (the ...), chose sensors
 	- Within sensors, you can use one of the geolocation override options
+
+Timeline of what happens in a user's browser
+	- JS file loaded by browser
+	- App component gets created
+	- We call geolocation service
+	- Immediately after (geolocation has not finished yet), JSX is returned by app component and is rendered as HTML
+	- We get a result from geolocation
