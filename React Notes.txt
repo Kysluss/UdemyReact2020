@@ -58,3 +58,10 @@ Example: constructor(props) {
 }
 
 Never have initalization code inside of the render method.  It should only create JSX.  The render method gets called a lot, and you don't want your initialization code to be called numerous times.
+
+Component Lifecycle Methods
+	- constructor
+	- render
+	- componentDidMount called after the component is rendered to the screen
+	- componentDidUpdate called after the component updates itself (like after setState)
+	- componentWillUnmount called when for some reason, the component will no longer be showed on the screen.  Good for cleanup of the component
