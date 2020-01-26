@@ -39,3 +39,13 @@ Rules of a class based component
 	- Must be a Javascript Class
 	- Must extend (subclass) React.Component
 	- Must define a 'render' method that returns some amount of JSX
+
+Rules of State
+	- Only usable with class based components
+	- You will confuse props with state
+	- State is a JS object that containes data relevant to a component
+	- Updating state on acomponent causes the comoponent to (almost) instantly re-render
+	- State must be initailized when a component is created
+	- State can only be updated using the function setState
+
+The last rule is very important.  You can only update state using setState.  This is the most common mistake that people make.  It's an object and you can update it directly, but then components won't re-render and other things won't update appropriately.
